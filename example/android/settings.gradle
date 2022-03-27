@@ -1,0 +1,6 @@
+rootProject.name = 'Arunjeyam1987Example'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':reactnativearunjeyam1987'
+project(':reactnativearunjeyam1987').projectDir = new File(rootProject.projectDir, '../../android')
